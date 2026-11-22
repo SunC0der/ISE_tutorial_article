@@ -1,0 +1,82 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Read the preprint and watch the video abstract for a practical tutorial on imaging spectroscopic ellipsometry of van der Waals quantum materials.">
+  <meta name="theme-color" content="#00a79d">
+  <title>ISE tutorial · Preprint and video abstract</title>
+  <style>
+    :root { color-scheme: light; --ink: #242424; --muted: #626262; --link: #006b65; }
+    * { box-sizing: border-box; }
+    body { margin: 0; background: #fff; color: var(--ink); font-family: system-ui, -apple-system, "Segoe UI", sans-serif; font-size: 1rem; line-height: 1.6; }
+    main { max-width: 888px; padding: 48px 24px; margin: auto; }
+    header { margin-bottom: 24px; }
+    .affiliation { margin: 0 0 20px; color: var(--muted); }
+    h1 { font-family: Georgia, "Times New Roman", serif; font-size: clamp(1.8rem, 4vw, 2.35rem); font-weight: 400; line-height: 1.2; margin: 0 0 8px; }
+    .subtitle { font-family: Georgia, "Times New Roman", serif; font-size: 1.25rem; line-height: 1.4; margin: 0; }
+    .video-label { margin: 0 0 10px; color: var(--muted); }
+    video { display: block; width: 100%; height: auto; aspect-ratio: 16 / 9; background: #242424; }
+    .links { display: flex; flex-wrap: wrap; gap: 8px 24px; margin: 14px 0 20px; }
+    a { color: var(--link); text-underline-offset: .2em; }
+    a:hover { text-decoration-thickness: 2px; }
+    a:focus-visible, summary:focus-visible, video:focus-visible { outline: 2px solid var(--link); outline-offset: 4px; }
+    details { margin: 0; }
+    summary { width: fit-content; cursor: pointer; color: var(--link); }
+    .transcript { max-width: 76ch; margin-top: 16px; white-space: pre-wrap; }
+    .paper { margin-top: 32px; }
+    .paper h2 { margin: 0 0 10px; font-family: Georgia, "Times New Roman", serif; font-size: 1.4rem; font-weight: 400; line-height: 1.3; }
+    .paper p { margin: 0 0 12px; }
+    .paper .links { margin: 0 0 12px; }
+    footer { margin-top: 32px; padding-top: 20px; border-top: 1px solid #dedede; }
+    footer p { margin: 0 0 16px; }
+    .status { color: var(--muted); }
+    .authors { line-height: 1.7; }
+    @media (max-width: 480px) { main { padding: 28px 18px 36px; } .affiliation { margin-bottom: 16px; } .subtitle { font-size: 1.15rem; } }
+  </style>
+</head>
+<body>
+  <main>
+    <header>
+      <p class="affiliation">Hofmann group · University of Cambridge</p>
+      <h1>Imaging spectroscopic ellipsometry</h1>
+      <p class="subtitle">Van der Waals quantum materials: a practical tutorial</p>
+    </header>
+    <p class="video-label">Video abstract · 2 min 45 sec</p>
+    <video controls playsinline preload="metadata" width="1280" height="720" poster="video_abstract_thumbnail.jpg" aria-label="ISE tutorial video abstract">
+      <source src="video_abstract.mp4" type="video/mp4">
+      <track kind="captions" src="video_abstract.vtt" srclang="en" label="English" default>
+      Your browser cannot play this video here. <a href="video_abstract.mp4">Open or download the MP4 video</a>.
+    </video>
+    <div class="links">
+      <a href="video_abstract.mp4" download>Download MP4 (23.9 MB)</a>
+      <a href="video_abstract_transcript.txt">Text transcript</a>
+      <a href="mailto:lmh207@cam.ac.uk">Contact</a>
+    </div>
+    <details>
+      <summary>Transcript</summary>
+      <div class="transcript" id="transcript">You&#x27;re watching this video, thanks to computer chips, that started their life on silicon wafers like this one. But for future electronics and quantum technologies, we&#x27;re exploring materials that are much, much thinner, sometimes just one molecular layer thick. These materials are called van der Waals materials or two-dimensional materials. And their properties can vary across regions barely the width of a single human hair.
+
+We&#x27;re introducing to you in this tutorial a technique called imaging spectroscopic ellipsometry, specifically on the case of van der Waals materials. It is a non-contact optical technique that uses polarised light that is reflected off from the sample of interest and the polarisation changes in the reflected light are measured. Two quantities, Psi and Delta, describe relative reflection amplitude changes and wave phase differences.
+
+An imaging detector gives us on top of that at each pixel these two parameters preventing an averaging of our area or sample of interest with its environment. And then repeating these measurements across different wavelengths builds a whole hyperspectral data set.
+
+To however extract actual thicknesses or optical constants from this measurement, we need to use an optical model. We need to fit this optical model of the entire stack to our ellipsometric data. And there, unfortunately, different assumptions can produce similarly good fits. This is why we need to calibrate the optical model and constrain it as much as we can with previously known measurement parameters. For example, we can measure thicknesses with atomic force microscopy and fix them in our optical model. And we can use Raman spectroscopy to identify the actual chemical nature of the materials on our sample. Each of these techniques measure different properties. Small spreads in fitted values cannot really reveal how uncertain we were with our optical model.
+
+Our aim is to teach you that you can obtain numbers easily with ellipsometry but you really need to know when you can trust them.</div>
+    </details>
+    <section class="paper" aria-labelledby="paper-title">
+      <h2 id="paper-title">Paper</h2>
+      <div class="links">
+        <a href="preprint.pdf">Read the preprint (PDF · 26 pages · 10.2 MB)</a>
+        <a href="preprint.pdf" download>Download PDF</a>
+      </div>
+      <p class="status">Author-prepared preprint, before peer review and publisher editing. Submitted to <em>Materials for Quantum Technology</em>.</p>
+    </section>
+    <footer>
+      <p class="authors">Ludwig Maximilian Hanauske, Ole P. G. Böttger, Hao Yu, Chumeng Yao, Jack A. Alexander-Webber, Peter H. Thiesen, Sebastian Schaper, Alexander G. Shard, Andrew J. Pollard and Stephan Hofmann.</p>
+      <p class="status">Except where otherwise credited, the preprint, video and accompanying original material are licensed under <a href="https://creativecommons.org/licenses/by/4.0/" rel="license">Creative Commons Attribution 4.0 International (CC BY 4.0)</a>. Copyright remains with the respective rights holders. Credited third-party material retains its stated terms. <a href="LICENSE">Full licence text</a>.</p>
+    </footer>
+  </main>
+</body>
+</html>
